@@ -1,0 +1,19 @@
+{
+  "name": "parse_votaciones",
+  "version": "1.0.0",
+  "description": "Parseador de votaciones en el Congreso de los Diputados consumiendo los datos publicados en la plataforma de OpenData de dicha institución.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "congreso",
+    "diputados",
+    "votaciones",
+    "parseador",
+    "json",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC"
+}
