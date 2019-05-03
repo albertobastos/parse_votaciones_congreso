@@ -1,5 +1,7 @@
 'use strict';
 
+const firebase = require('./firebase');
+
 class Resultado {
   constructor(
     status,
@@ -11,6 +13,11 @@ class Resultado {
     this.legislatura = legislatura;
     this.sesion = sesion;
     this.votaciones = votaciones || [];
+  }
+
+  save() {
+    const votacionesRef = firebase.ref(`sesiones/${this.legislatura}/${this.sesion}`);
+    votacionesRef.set(this.votaciones);    
   }
 };
 

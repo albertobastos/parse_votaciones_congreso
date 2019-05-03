@@ -32,6 +32,7 @@ async function parsear_sesion(legislatura, sesion) {
         resolve(new Resultado(status.NOT_FOUND, legislatura, sesion, null));
         return;
       }
+      
 
       let buffer_votaciones
       try {
