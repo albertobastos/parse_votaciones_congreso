@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  OK: 'OK',
-  NOT_FOUND: 'NOT_FOUND',
-  ERROR: 'ERROR'
+  OK: 0,
+  NOT_FOUND: 1,
+  ERROR: 2
 }
