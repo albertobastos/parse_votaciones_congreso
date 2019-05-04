@@ -1,0 +1,25 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "airbnb",
+      "plugin:react/recommended"
+    ],
+    "parser": "babel-eslint",
+    "plugins": [
+      "node",
+    ],
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+        "classes": true,
+        "modules": true
+      }
+    },
+    "rules": {
+      "global-require": "off",
+      "object-curly-newline": "warn",
+      "consistent-return": 0,
+      "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    }
+  }
+  
